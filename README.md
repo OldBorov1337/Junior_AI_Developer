@@ -31,4 +31,5 @@ result_with_skeleton.mp4 – wideo z wizualizacją
 Jak uruchomić (z Docker):
 
 docker build -t pose-estimation .
+
 docker run -v ${PWD}:/app pose-estimation 1.mp4 result.json
