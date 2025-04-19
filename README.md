@@ -11,7 +11,9 @@ Jak uruchomić (bez Dockera):
 1. Stwórz i aktywuj wirtualne środowisko:
 
 python -m venv venv
+
 venv\Scripts\activate    # Windows
+
 source venv/bin/activate # Linux/macOS
 
 2. Zainstaluj wymagane biblioteki:
